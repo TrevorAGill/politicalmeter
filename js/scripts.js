@@ -11,8 +11,12 @@ $(document).ready(function(){
     alert("You are a conservative!");
   } else if( result >5 && result <25 && result !==0){
     alert("You are a moderate!");
-  } else if( result >=25 && result !==0){
+  } else if( result >=25 && result !==30){
     alert("You are a liberal!");
+  } else if(result === 0) {
+    alert("Congratulations, you got your president!");
+  } else if(result === 30) {
+    alert("Better luck next time, hippie!");
   } else{
     alert("Answer the questions!");
   }
