@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Political Meter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="well">
+        <div class="form">
+          <h1>Political Meter</h1>
+            <form id="meterform">
+              <div class="form-group">
+                <p>Do you believe the earth is warming?</p>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="environment" value="10">
+                    Yes, and it's caused by humans
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="environment" value="5">
+                    Maybe, I'm not sure, or yes, but not human-caused
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="environment" value="0">
+                    It snowed at my house! *brings snowball onto senate floor*
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group" id="q2">
+                <p>Are wealthy people taxed too much?</p>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="taxes" value="0">
+                    Yes
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="taxes" value="5">
+                    Maybe, I'm not sure
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="taxes" value="10">
+                    No
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group" id="q3">
+                <p>Do you think gun control is a good idea?</p>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="guns" value="10">
+                    Yes
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="guns" value="5">
+                    Maybe, I'm not sure
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="guns" value="0">
+                    No
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
